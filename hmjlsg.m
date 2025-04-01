@@ -151,11 +151,11 @@ for k = 1:n_s   % -- NUMBER OF INSTANCES.
     D = [];
     % Auxiliary variables
     aux_C = randn(s,n,N);
-    aux_D = randn(s,n,N);
+    aux_D = randn(s,m,N);
     % C and D satisfy C'D = 0:
     for i = 1:N
         C(:,:,i) = [ aux_C(:,:,i) ; zeros(s,n) ];
-        D(:,:,i) = [ zeros(s,n) ; aux_D(:,:,i) ];
+        D(:,:,i) = [ zeros(s,m) ; aux_D(:,:,i) ];
     end
     
     
