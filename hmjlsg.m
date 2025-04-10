@@ -136,7 +136,7 @@ for k = 1:n_s   % -- NUMBER OF INSTANCES.
     % (*): half if n^2 is even, or half plus one if n^2 is odd
     for nn = 1:N
         for i = 1:ceil(n^2/2)
-            A(randi(n),randi(n),nn) = rand;
+            A(randi(n),randi(n),nn) = randn;
         end
     end
     
