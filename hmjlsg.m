@@ -38,10 +38,10 @@ for k = 1:n_s   % -- NUMBER OF INSTANCES.
     
     % ----
     % Random dimensions:
-    N = randi([4,5]);     % -- Number of Markov states, ranging between 4 and 5
+    N = randi([2,5]);     % -- Number of Markov states, ranging between 4 and 5
     M = randi([1,5]);     % -- Number of outputs of the Markov chain, ranging between 1 and 5 and not greater than N
     M = min(M,N);
-    n = randi([2,3]);     % -- Dimension of x, ranging between 2 and 3
+    n = randi([2,5]);     % -- Dimension of x, ranging between 2 and 3
     m = randi([1,2]);     % -- Dimension of u, ranging between 1 and 2
     r = randi([1,2]);     % -- Dimension of w, ranging between 1 and 2
     s = m + n;            % -- Output
