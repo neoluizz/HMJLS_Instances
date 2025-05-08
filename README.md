@@ -30,6 +30,7 @@ Loading data in MATLAB:
 load('instance_1.mat');   % Load a specific instance
 
 A = S.A;            % Access system matrix A
+
 Q = S.Q;            % Access detector matrix Q
 
 % ------------------------------------------------------------------------------
