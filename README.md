@@ -4,7 +4,7 @@ The term “hidden” refers to the fact that, the parameter θ is indirectly ob
 
 The dataset contains the instances used in the statistical analysis presented in the article "A New Method for the H2 Problem of Hidden Markov Jump Linear Systems." The data are stored in MATLAB .mat format using a structured data type for easy access. After unzipping and loading an instance in MATLAB (e.g., using load('instance1.mat')), you will find a single struct variable named S, which contains the following fields:
 
-A: System matrices for each of the 4 modes.
+A: System matrices for each mode.
 
 B: Input matrices for each mode.
 
