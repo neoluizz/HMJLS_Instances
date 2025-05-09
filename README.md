@@ -22,6 +22,7 @@ init_distrib: Initial mode distribution (e.g., [1 0 0 0] indicates the system st
 
 <br><br>
 The dimensions of each matrix are detailed in the article.
+
 <br><br>
 % ------------------------------------------------------------------------------
 
