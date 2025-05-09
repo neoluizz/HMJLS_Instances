@@ -20,10 +20,10 @@ Prob: Transition probability matrix for the Markov chain.
 
 init_distrib: Initial mode distribution (e.g., [1 0 0 0] indicates the system starts in mode 1).
 
-<br>
+<br><br>
 The dimensions of each matrix are detailed in the article.
 
-
+<br><br>
 % ------------------------------------------------------------------------------
 
 Loading data in MATLAB:
