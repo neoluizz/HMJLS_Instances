@@ -22,7 +22,6 @@ init_distrib: Initial mode distribution (e.g., [1 0 0 0] indicates the system st
 
 <br><br>
 The dimensions of each matrix are detailed in the article.
-
 <br><br>
 % ------------------------------------------------------------------------------
 
@@ -35,7 +34,7 @@ A = S.A;            % Access system matrix A
 Q = S.Q;            % Access detector matrix Q
 
 % ------------------------------------------------------------------------------
-<br><br>
+<br><br><br>
 
 
 You can use the matrices in S to simulation routines. Each instance captures a specific system configuration with a defined mode transition structure and initial condition.
